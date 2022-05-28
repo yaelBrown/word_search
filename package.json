@@ -1,0 +1,20 @@
+{
+  "name": "word_search",
+  "version": "1.0.0",
+  "description": "Node word search app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yaelBrown/word_search.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yaelBrown/word_search/issues"
+  },
+  "homepage": "https://github.com/yaelBrown/word_search#readme"
+}
