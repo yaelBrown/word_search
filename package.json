@@ -4,7 +4,9 @@
   "description": "Node word search app",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "concurrently \"cd client && npm run start\" \"cd server && npm run start\"",
+    "install": "cd client && npm install && cd ../server && npm install"
   },
   "repository": {
     "type": "git",
@@ -16,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/yaelBrown/word_search/issues"
   },
-  "homepage": "https://github.com/yaelBrown/word_search#readme"
+  "homepage": "https://github.com/yaelBrown/word_search#readme",
+  "dependencies": {
+    "concurrently": "^7.2.1"
+  }
 }
