@@ -1,0 +1,5 @@
+const ASCII_UPPERCASE = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+
+module.exports = {
+  ASCII_UPPERCASE,
+};

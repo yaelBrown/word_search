@@ -13,6 +13,7 @@
   "license": "ISC",
   "dependencies": {
     "http": "^0.0.1-security",
+    "jest": "^28.1.0",
     "socket.io-client": "^4.5.1",
     "socketio": "^1.0.0"
   }
